@@ -1,0 +1,11 @@
+name: RestartVote
+version: '${project.version}'
+main: chmodsayshello.restartvote.RestartVote
+api-version: 1.18
+authors: [ chmodsayshello ]
+description: Lets players decide to restart server
+website: github.com/chmodsayshello
+commands:
+  restartvote:
+    description: Restarts the Server if 75 or more % of Players run it
+    usage: /<command>
